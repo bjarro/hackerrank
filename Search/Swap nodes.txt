@@ -1,0 +1,7 @@
+
+To do:
+
+Implement inorder traversal
+ - add custom storage
+
+

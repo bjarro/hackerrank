@@ -1,0 +1,17 @@
+    
+    # Loop from i to range(len(s1))
+    # Check max child of s1[:i+1] and s2[:i+1]
+    # # Check if new characters have new matches
+    # # Add new matches to max
+    # # 
+    # # # 1: S1[i] == S2[i]
+    # # # 2: S1[i] in S2[:i]
+    # # # 3: S1[:i] in S2[i]
+    # # # 4: Case 2 + 3
+    
+    #Implementation
+    # Create data structure dict(letter,set(indices)) for s1 and s2 dict_unmatched1, dict_unmatched2
+    # For each i:
+    # add s1[i] to dict1[s1[i]], s2[i] to dict2[s2[i]]
+    # Check if S
+    

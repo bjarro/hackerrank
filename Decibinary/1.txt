@@ -1,0 +1,21 @@
+199 = 31
+279 = 9 + 14 + 8
+287
+295
+359 = 9 + 10 + 12
+375 = 5 + 14 + 12
+
+9,9,1 #0,1 full, increase pv
+
+9,7,2 #Redistribute <2, pv_last = 1
+
+7,8,2 #Redistribute <1, pv_last = 2 -> 
+5,9,2 # case 1 pv_last = 0 | Full| move to pv_last = 1
+5,7,3 # Redistribute <2 -> pv_last = 0 | Missed 9,5,3?
+
+
+3,8,3 # Case 1 
+1, 9, 3 #  Case 1 pv_last = 0 | move to pv_last = 1
+
+1,7,4
+

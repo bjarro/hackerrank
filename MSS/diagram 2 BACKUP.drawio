@@ -1,0 +1,142 @@
+<mxfile host="Electron" modified="2023-07-19T16:04:32.763Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="ex4aIZROhnc_lzfppGPS" version="21.2.8" type="device">
+  <diagram name="Page-1" id="2MYxAW1F5tBiuLoYxs4M">
+    <mxGraphModel dx="3758" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-1" value="Approaches:" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-2" value="Modulo + Cumsum" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="430" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-3" value="O(n^2)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-90" y="478" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-4" value="Reuse" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-100" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-5" value="Get modulo of array" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-7" value="Compute mod cumsum of 1 to n" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-350" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-9" value="Get mod cumsum from 0 to n-1" style="shape=loopLimit;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-170" y="770" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-10" value="from 1 to n" style="shape=loopLimit;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-172.5" y="970" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-11" value="subtract prev_num to all elements" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-182.5" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-12" value="store max" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="55" y="870" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-13" value="store max" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-640" y="595" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-14" value="&lt;h1&gt;V1&lt;/h1&gt;&lt;div&gt;O(n^2) Time | O(n^2)/2&amp;nbsp;&lt;/div&gt;&lt;div&gt;O(n) Space&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-420" y="505" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-15" value="Remove and store a_m[i-1] / cumsum[0] as prev_num&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-182.5" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-17" value="Store Max" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-18" value="Store Max" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-177.5" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-19" value="Get modulo of array" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-780" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-20" value="Get mod cumsum from 0 to n-1" style="shape=loopLimit;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-770" y="1150" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-21" value="Store Max" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-780" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-22" value="from 1 to n" style="shape=loopLimit;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-770" y="1500" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-24" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Compute how many m&#39;s in cumsum (m_end)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-780" y="1410" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-25" value="from 1 to n" style="shape=loopLimit;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-290" y="1510" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-26" value="Remove and store a_m[i-1] / cumsum[0] as prev_num&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-310" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-27" value="Store sorted m_cumsum as tuple (value, orig_index)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-780" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-28" value="prune sorted_cumsum based on current_m" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-780" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-29" value="Compute current_m" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-780" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-30" value="Search for closest to prev_m" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-780" y="1780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-32" value="nlogn or n^2 independent of outer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-650" y="1710" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-33" value="O(n)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-625" y="1528" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-34" value="log n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-640" y="1795" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-36" value="Set max" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-780" y="1870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-37" value="Get modulo of array" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1180" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-38" value="Get mod cumsum from 0 to n-1" style="shape=loopLimit;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1170" y="1150" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-39" value="Store Max" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1180" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-40" value="from 1 to n" style="shape=loopLimit;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1170" y="1500" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-41" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Compute how many m&#39;s in cumsum (m_end)&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1180" y="1410" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-42" value="Store sorted m_cumsum as tuple (value, orig_index)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1180" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-44" value="Compute current_m&lt;br&gt;(m_start)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1180" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-45" value="Search for closest to prev_m" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1180" y="1695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-47" value="O(n)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1025" y="1528" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-48" value="log n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1030" y="1710" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-49" value="Set max" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1180" y="1870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-51" value="n + (n -1/m*n) + (n-2/m*n)) + ... 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1600" y="2028" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-52" value="walk left until valid" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1180" y="1780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTuwaKIoe_yLvS8SK5gL-53" value="??" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1030" y="1798" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

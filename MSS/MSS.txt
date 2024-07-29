@@ -1,0 +1,12 @@
+Currently: for every iteration we deduct list_initial_cumsum[i] to all elements
+
+1. We don't need to compute iteration 2 to compute iteration 3, we just deduct list_initial_cumsum[2] instead of a_mod[2] to the intial values starting at list_initial_cumsum[3] to get iteration 3
+
+2. We don't need to deduct the prev_cumsum to all values. We just need to search for m + prev_cumsum and get the closest value - this would be the max sum for the current iteration.
+
+
+2.1 We need to look for the closest in every cycle: for every integer x in x*m + prev_cumsum 
+
+2.2 Alternatively store another list containing the modulo to the initial cumsum and look for prev_cumsum.
+ - Only search for values to right of when initial_cumsum is > m
+

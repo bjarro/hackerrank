@@ -1,0 +1,15 @@
+
+Current approach:
+repeated search and evaluate - max of m tries?
+
+---------------
+Possibly better approach: 
+
+-------
+cumulative ratio approach
+ - represent next machines as a cumsum output of the previous machines + 1 
+   - Use ratio to compute
+
+----
+ - get initial days using coeff and goal
+ - increase day by walking through each machines, multiplying 

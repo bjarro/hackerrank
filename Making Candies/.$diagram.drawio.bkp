@@ -1,0 +1,67 @@
+<mxfile host="Electron" modified="2023-07-14T03:55:08.916Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="qpPMZqbHdfyhEglPZI0Y" version="21.2.8" type="device">
+  <diagram name="Page-1" id="3Y77ZwgcNbcYS3cqdAqW">
+    <mxGraphModel dx="2268" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-1" value="Equalize m and w" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-2" value="Evenly distribute" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-3" value="Find threshold" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-4" value="Growing projection" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-5" value="Stagnant projection" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-6" value="Include cost" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-7" value="Plug and run values" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-8" value="Observe pattern" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-9" value="find a general equation for the series" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-10" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x" parent="1" vertex="1">
+          <mxGeometry x="-400" y="380" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-11" value="" style="shape=loopLimit;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="70" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-13" value="fast forward until can buy" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-14" value="search non-greedy solutions" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-16" value="in between min?" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-17" value="Store data of min_passes" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-18" value="cur_candies, m, w" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="110" y="815" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-21" value="&lt;h1&gt;Q&lt;/h1&gt;&lt;p&gt;How do you know if you found min?&lt;/p&gt;&lt;p&gt;When do you stop searching&lt;/p&gt;&lt;p&gt;How to set upper/lower bounds, How to set next search?&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="900" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-74Hi7joVt8fo7PH-Nmw-23" value="&lt;h1&gt;Properties&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The min curve should be continuous (no breaks in between)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;if new min is found, similar min can only be found on adjacent passes&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Proper ordering&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;You can&#39;t increase rightmost, and decrease leftmost&lt;/span&gt;&lt;/li&gt;&lt;li&gt;You can increase leftmost and decrease rightmost&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-530" y="845" width="370" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="A9DX4jG-vJweDI2HF7i4-2" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cases/Issues:&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Case 1:&lt;br&gt;&amp;nbsp;- What if fast forward until can buy skips n?&lt;br&gt;&amp;nbsp;- Example: p &amp;gt; n&lt;br&gt;&amp;nbsp;- Handled by projection&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="826.5" width="340" height="232" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

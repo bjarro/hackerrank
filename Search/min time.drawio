@@ -1,0 +1,244 @@
+<mxfile host="Electron" modified="2023-07-12T19:24:25.386Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="WraFwzwXk9BozT-ohkmN" version="21.2.8" type="device">
+  <diagram name="Page-1" id="bPRshN3QFO1RZLjtO5Kk">
+    <mxGraphModel dx="3443" dy="1505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-1" value="Initialization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-2" value="Get remainder as cur_goal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-3" value="Compute initial days" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-5" value="Search for lowest cumsum &amp;gt;= cur_goal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-12" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HqC5KaBrgHlJ_fZEgeTc-6" target="HqC5KaBrgHlJ_fZEgeTc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-15" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HqC5KaBrgHlJ_fZEgeTc-6" target="HqC5KaBrgHlJ_fZEgeTc-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-6" value="actual &amp;gt; cur_goal" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="820" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-7" value="Eval" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-9" value="calculate days" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-11" value="get left cumsum" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-14" value="use right cumsum" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-16" value="eval" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-18" value="compute days" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-19" value="cur_goal = cur_goal - actual" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-22" value="compute days" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-23" value="eval" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-26" value="Search for lowest cumsum &amp;gt;= cur_goal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-27" value="Eval" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-28" value="calculate days" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-29" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HqC5KaBrgHlJ_fZEgeTc-31" target="HqC5KaBrgHlJ_fZEgeTc-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-30" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HqC5KaBrgHlJ_fZEgeTc-31" target="HqC5KaBrgHlJ_fZEgeTc-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-31" value="actual &amp;gt; cur_goal" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="910" y="750" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-32" value="get left cumsum" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-33" value="get right cumsum" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="760" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HqC5KaBrgHlJ_fZEgeTc-34" target="HqC5KaBrgHlJ_fZEgeTc-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-34" value="eval" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-35" value="compute days" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="900" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-36" value="cur_goal = cur_goal - actual" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-39" value="Search for lowest cumsum &amp;gt;= cur_goal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-40" value="Eval" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-41" value="calculate days" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HqC5KaBrgHlJ_fZEgeTc-42" target="HqC5KaBrgHlJ_fZEgeTc-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-45" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HqC5KaBrgHlJ_fZEgeTc-42" target="HqC5KaBrgHlJ_fZEgeTc-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="1210" />
+              <mxPoint x="1300" y="730" />
+              <mxPoint x="960" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-42" value="actual &amp;gt; cur_goal" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1160" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-47" value="" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.loop" vertex="1" parent="1">
+          <mxGeometry x="400" y="760" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-48" value="" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.loop" vertex="1" parent="1">
+          <mxGeometry x="920" y="650" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-49" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HqC5KaBrgHlJ_fZEgeTc-51" target="HqC5KaBrgHlJ_fZEgeTc-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-50" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HqC5KaBrgHlJ_fZEgeTc-51" target="HqC5KaBrgHlJ_fZEgeTc-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-51" value="actual &amp;gt; cur_goal" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="820" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-52" value="get left cumsum" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="30" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-53" value="use right cumsum" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-54" value="eval" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-55" value="compute days" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-56" value="cur_goal = cur_goal - actual" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-59" value="Search for lowest cumsum &amp;gt;= cur_goal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-60" value="Eval" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-61" value="calculate days" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-62" value="" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.loop" vertex="1" parent="1">
+          <mxGeometry x="-100" y="760" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-63" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HqC5KaBrgHlJ_fZEgeTc-65" target="HqC5KaBrgHlJ_fZEgeTc-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-64" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HqC5KaBrgHlJ_fZEgeTc-65" target="HqC5KaBrgHlJ_fZEgeTc-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-65" value="actual &amp;gt; cur_goal" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="820" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-66" value="get left cumsum" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-67" value="use right cumsum" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-68" value="eval" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-69" value="compute days" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-70" value="cur_goal = goal - total" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-71" value="Search for lowest cumsum &amp;gt;= cur_goal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-72" value="Eval" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-73" value="calculate days" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-74" value="" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.loop" vertex="1" parent="1">
+          <mxGeometry x="-620" y="760" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-75" value="prev_total = prev + actual" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-76" value="actual &amp;gt; cur_goal" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="1860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-77" value="actual == cur_goal" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-78" value="actual &amp;lt; cur_goal" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="1860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-79" value="Case: cumsum on eval is &amp;lt; cur_goal" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="1950" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-81" value="&#xa;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;properties:&lt;/span&gt;&lt;br style=&quot;border-color: rgb(0, 0, 0); color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br style=&quot;border-color: rgb(0, 0, 0); color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;at least Cumsum - actual Machines has remainders (floored)&amp;nbsp;&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="1990" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-83" value="Case: cumsum on eval is &amp;gt; cur_goal" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="1950" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-84" value="&lt;br&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;properties:&lt;/span&gt;&lt;br style=&quot;border-color: rgb(0, 0, 0); color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br style=&quot;border-color: rgb(0, 0, 0); color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;at least Cumsum - actual Machines has remainders (floored)&amp;nbsp;&lt;br&gt;&lt;/span&gt;left - Sure to be less than cur_goa&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="1990" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-85" value="Next step:&lt;br&gt;&lt;br&gt;increase cur_i until actual &amp;gt; cur_goal" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="2070" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-86" value="Next step:&lt;br&gt;&lt;br&gt;1. get left&amp;nbsp;&lt;br&gt;2. eval&lt;br&gt;3. set new goal&lt;br&gt;4. search next cumsum" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="2090" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-88" value="Next Cumsum cases:&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="2270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-91" value="Unsure cases:&lt;br&gt;1. leftmost is the lowest &amp;gt; cur_goal -&amp;gt; cur-1 = Runtime Error&lt;br&gt;2. rightmost is not considered -&amp;gt; Infinite loop" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="2270" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-92" value="Initial days:&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="230" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-93" value="if goal &amp;gt; last cumsum, find initial days such that&amp;nbsp; remaining items &amp;lt;&amp;nbsp; last cumsum&lt;br&gt;alternatively: given the remaining items, you only need to traverse m_sorted once to find the answer" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="285" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-94" value="coeff: - number of items per day&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="350" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HqC5KaBrgHlJ_fZEgeTc-95" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

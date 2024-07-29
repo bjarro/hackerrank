@@ -1,0 +1,76 @@
+
+
+
+B must be in A.upper
+ - unmatched B must be in A lowercase letters
+ - ordering of matched is ambiguous for adjacent same letters
+
+
+Properties:
+
+All a_caps must be in B
+ - No extra uppercase in A
+
+
+if current B is matched, the next value
+
+
+Conditions:
+
+Capitals on A must be matched
+
+Unsure:
+
+Match ordering
+
+
+aAB - unsure case
+AaB - normal case
+
+AAB
+
+FTT - Won't happen
+TFT - first A will always be matched first
+
+
+
+---- A
+ABcDEe
+ABDcdE
+
+
+---- B
+ABCDE
+
+
+-------------------------------------------
+
+---- A
+ABCDE
+
+
+---- B
+ABCDECDECDE
+
+ABCDE------
+AB---CDE---
+AB------CDE
+
+
+
+ABCDECDECDE
+ABC---DE------
+ABCD--E
+ABCDECDE
+
+
+
+---------------
+
+---- A
+ABcDEe
+abcABDcdE
+
+
+---- B
+ABCDE

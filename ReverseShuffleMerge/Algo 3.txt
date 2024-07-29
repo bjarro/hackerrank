@@ -1,0 +1,35 @@
+
+
+cases:
+
+case 1:
+ - b is the correct next element
+    - case 1.1 - no more a's
+    - case 1.2 - other a's are invalid (won't fill up split)
+case 2
+ - b is not the next element
+    - case 2.1 - there are still valid a's
+
+insight:
+choose between lookahead and store
+ - probably store
+
+
+question:
+ - when/how do replace with correct value
+
+
+
+Possible Data to store:
+ - Count of remaining chars in split
+ - Count of remaining chars in str
+ - cur_list in reverse
+
+
+Implementation
+- From right to left: (O(n))
+  - backtrack cur_char from right to left until we find insertion point 
+      - O(1) / o(k) - at most o(n) total visits
+      - backtrack as long as remaining chars in split <= remaining chars in str or we encounter the same char
+      - remove trailing then append
+

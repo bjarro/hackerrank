@@ -1,0 +1,100 @@
+<mxfile host="Electron" modified="2023-07-16T07:16:48.124Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="qobV7AgMPgi218UShMXX" version="21.2.8" type="device">
+  <diagram name="Page-1" id="U8G1s_Jqgpj-3dhT1dQG">
+    <mxGraphModel dx="3118" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="saT2jobQe97MY_7Y-iJg-2" value="Case: sum is less than m" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="130" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-4" value="Answer: Sum" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="210" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-5" value="Latest upper bound: O(n)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-7" value="Is the sum of modulo equal to modulo of sum? - Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="170" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-8" value="find the highest sum of modded that is less than m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="358" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-9" value="find the highest mod of sum of modded" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="430" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-11" value="We can get new modded numbers from adding 2 modded&amp;nbsp; numbers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="520" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-12" value="How to get the highest sum of subset less than m?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="530" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-13" value="How to find the subset with the highest sum less than m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="580" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-14" value="Memoization: O(N^2)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="630" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-16" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Speed optimizations:&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Min search&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="725" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-17" value="How to narrow down search space?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="725" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-18" value="Is it possible to project min?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="770" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-19" value="Skip combinations with higher projected min?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="810" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-20" value="Divide numbers into primary and composite" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-265" y="845" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-21" value="Pyramid memoization" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="890" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-22" value="Max memoization&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="695" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-23" value="Next highest max search" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="768" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-24" value="Find elements to remove such that we can insert last_val" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="820" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-25" value="to_remove = last_val - remaining" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="900" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-26" value="remaining = m-1 - cur_max" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="860" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-28" value="Find lowest sum where remaining &amp;gt; lowest sum &amp;gt;= to_remove" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="940" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-29" value="lowest sum &amp;lt; remaining" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="980" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-30" value="lowest sum &amp;gt;= to_remove" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-805" y="1020" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-31" value="Highest sum search:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="1140" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-33" value="" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-765" y="1240" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-34" value="Find lowest &lt;b&gt;primary&lt;/b&gt; higher than to_remove" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-785" y="1320" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-35" value="Find subset sum lower than primary but higher than to_remove" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-785" y="1400" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-38" value="exclude primaries greater than or equal to primary" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1392.5" y="1260" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="saT2jobQe97MY_7Y-iJg-40" value="Find subset sum lower than primary but higher than to_remove" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-1410" y="1140" width="210" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,3 @@
+O(2n) writes, but search might take longer if there were valid cases sandwiched in between
+
+O(n^2/2) worst case? if we are always overwriting valid pointers
